@@ -18,7 +18,7 @@
         }
 
         // 3 - Bu diziye kullanıcıdan alınan yeni bir değeri ekleyiniz (11. eleman olarak)
-        Array.Resize(ref sayilar, sayilar.Length + 1);
+        Array.Resize(ref sayilar, 11);
         Console.Write("Lütfen sayilar dizisinin 11.elemanı için bir değer giriniz:");
         sayilar[10] = int.Parse(Console.ReadLine());
         Console.WriteLine("Sayilar dizisinin 11.elemanı:" + sayilar[10]);
